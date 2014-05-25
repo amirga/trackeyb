@@ -1,6 +1,11 @@
 amir:
   first_name: "amir"
-  last_name: "gafni"
-  email: "a@gmail.com"
-  profile_name: "amirg"
-  
+  last_name: "Seifer"
+  email: "jason@teamtreehouse.com"
+  profile_name: "amirgaf"
+
+jim:
+  first_name: "Jim"
+  last_name: "Hoskins"
+  email: "jim@teamtreehouse.com"
+  profile_name: "jimhoskins"

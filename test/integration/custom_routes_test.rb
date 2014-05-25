@@ -16,4 +16,10 @@ class CustomRoutesTest < ActionDispatch::IntegrationTest
     get '/register'
     assert_response :success
   end
+
+  test "to check that a personal pages are working" do
+    get 'amirgaf'
+    assert_response :success
+end
+
 end
