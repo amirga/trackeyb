@@ -16,6 +16,7 @@
            	    <li class="active"><%=link_to "All Statuses", feed_path %></li>
            	    </ul>    	
            	    <ul class="nav pull-right navbar-nav">
+                 
            	    	<% if user_signed_in? %>
            	    	 <li class="active"><%= link_to current_user.full_name,  edit_user_registration_path %></li>
            	    	 <li class="active"><%= link_to "Log Out",  logout_path %>
